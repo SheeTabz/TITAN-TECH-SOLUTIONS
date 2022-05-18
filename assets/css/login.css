@@ -1,0 +1,142 @@
+:root {
+  --main-background-color: #f5f2ea;
+  --main-container-color: #ffffff;
+  --highlight-sectionns-color: #fdc887;
+  --blur-word-color: #b6b0b0;
+  --main-text-color: rgba(0, 0, 0, 1);
+  --boldblur-text-color: #8e8a8a;
+}
+body {
+  background: var(--main-background-color);
+  font-family: "Inter";
+  font-style: normal;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+nav {
+  height: 100px;
+}
+/* .logo {
+  line-height: 90px;
+  font-weight: bold;
+  padding: 0 150px;
+  font-size: 30px;
+} */
+.TITAN {
+  padding-left: 150px;
+}
+/* .sales {
+  padding-left: 150px;
+} */
+nav > ul {
+  top: 0;
+  float: right;
+  list-style-type: none;
+  margin-right: 100px;
+}
+nav li {
+  justify-content: space-between;
+  margin: 0 10px;
+  display: inline-block;
+}
+li > a {
+  color: var(--main-text-color);
+  text-decoration: none;
+  font-size: 20px;
+}
+li.req {
+  background: var(--highlight-sectionns-color);
+  padding: 20px;
+  border-radius: 10px;
+}
+hr {
+  position: absolute;
+  width: 233.28px;
+  height: 0px;
+  left: 118px;
+  top: 172px;
+
+  border: 1px solid #7e7777;
+}
+.mainBody {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin: 100px;
+
+  margin-right: 70px;
+}
+
+.mainSec {
+  background-color: var(--main-container-color);
+  padding: 50px;
+  text-align: center;
+  outline: 10px solid #7e7777;
+  outline-offset: -10px;
+
+  /* position: absolute;
+  width: 400px;
+  height: 600px;
+  border: 4px solid var(--blur-word-color);
+  border-radius: 10px;
+  top: 200px;
+  left: 600px; */
+}
+.content {
+  margin-left: 25px;
+}
+input {
+  padding: 30px;
+  width: 400px;
+  margin: 5px;
+  border: 1px solid #b6b0b0;
+  border-radius: 5px;
+  font-size: 20px;
+}
+.sign {
+  background: var(--highlight-sectionns-color);
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  width: 450px;
+}
+.sign > a {
+  color: #000000;
+  text-decoration: none;
+}
+.sign2 > h4 {
+  text-align: center;
+  font-weight: 100;
+  font-size: 20px;
+  margin-top: 8px;
+}
+.socialMedia {
+}
+.socialMedia > button {
+  background: var();
+  padding: 10px;
+  border: 30px var(--main-text-color);
+  border-radius: px;
+  font-weight: 500;
+}
+.socialMedia > button > a {
+  color: #000000;
+  text-decoration: none;
+}
+.leftContainer {
+  background: url(../images/icon2.jpg);
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+.leftContainer > .leftcontet {
+  color: #ffffff;
+  background: rgba(7, 7, 7, 0.25);
+  padding: 5px;
+  box-shadow: 5px 5px 5px 5px #f5f2ea;
+  border-radius: 10px;
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-top: 30px;
+}
